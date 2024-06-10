@@ -1,6 +1,6 @@
 <template>
   <div
-    class="calculadora min-h-screen flex items-center justify-center bg-gray-100"
+    class="min-h-screen flex items-center justify-center bg-gray-100"
   >
     <div class="max-w-md w-full bg-white p-6 rounded-lg shadow-lg">
       <input
@@ -39,6 +39,7 @@
         <button @click="handleButtonClick('0')" class="button-op col-span-3">
           0
         </button>
+
         <button
           @click="handleEqual"
           class="button-equal focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 bg-green-500 text-white p-4 rounded-lg hover:bg-green-600"
@@ -50,7 +51,7 @@
   </div>
 </template>
 
-<script lang="ts" src="./Calculadora.ts"></script>
+<script lang="ts" src="./Calculator.ts"></script>
 
 <style scoped>
 .button-op {
